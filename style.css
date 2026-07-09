@@ -4,7 +4,7 @@
    box-sizing: border-box;
 }
 nav{
-   height: 20px;
+   height: 15px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -64,10 +64,10 @@ background-color: rgb(44, 101, 223);
    padding: 10px 40px;
    margin-top: 300px;
 }
-section{
+.meet_t_S{
    padding: 10px 10px;
 }
-section h1{
+.meet_t_S h1{
 
    color: black;
    text-align: center;
@@ -76,7 +76,7 @@ section h1{
   
 }
 .father_card{
-   height: 90vh;
+
    display:grid;
    grid-template-columns: repeat(2,1fr);
    grid-template-rows: repeat(2,1fr);
@@ -110,4 +110,121 @@ section h1{
    font-size: 16px;
    color: rgba(0, 0, 0, 0.507);
  
+}
+.secure_y-s{
+   padding: 40px 0px;
+   height: 95vh;
+}
+
+.secure_y-s h2{
+   
+   color: rgb(0, 0, 0);
+   text-align: center;
+   font-size: 40px;
+   padding-top: 20px;
+}
+.s_sub{
+   text-align: center;
+   color: rgba(34, 35, 37, 0.678);
+   padding: 10px 0px;
+   padding-bottom: 20px;
+}
+.secure_y-s .all_card{
+   height: 60vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.all_card .card{
+   width:22vw;
+   height: 58vh;
+    border-radius: 10px;
+    padding: 20px 0px;
+    
+}
+.bg{
+   background-color: rgb(20, 27, 37);
+   color: white
+}
+
+.margin-{
+margin-top: -30px;
+}
+.card p{
+
+font-size: 13px;
+padding: 10px 40px;
+
+}
+.card h1{
+padding: 20px 0px;
+ padding-left: 30px;
+   
+
+}
+.card ul{
+   padding: 30px 40px;
+}
+.card ul li{
+   list-style: disc;
+   color: rgb(39, 126, 240);
+}
+.card ul li p{
+   padding: 5px 0px;
+   
+   font-size: 14px;
+}
+.card_btn{
+   padding: 10px 80px;
+margin-left: 25px;
+border: 1px solid rgb(44, 101, 223) ;
+border-radius: 10px;
+color:rgb(44, 101, 223) ;
+font-weight: bold;
+
+}
+.text_color{
+color: rgba(0, 0, 0, 0.5);
+}
+
+.p_color{
+   color: #ffffff88;
+}
+.card_m{
+      width:22vw;
+   height: 58vh;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+.card_m ul li{
+     list-style: disc;
+   color: rgb(39, 126, 240);
+}
+.card_m ul{
+   padding: 30px 40px;
+}
+ .card_m h1{
+padding: 20px 0px;
+ padding-left: 30px;
+ }
+ .card_m ul li p{
+   padding: 5px 0px;
+   
+   font-size: 14px;
+}
+.card_m p{
+
+font-size: 13px;
+padding: 10px 40px;}
+.p_pro{
+   color: rgba(164, 183, 224, 0.678);
+}
+.card_btn_m{
+   padding: 10px 100px;
+margin-left: 25px;
+border: 1px solid rgb(44, 101, 223) ;
+border-radius: 10px;
+color:rgb(44, 101, 223) ;
+font-weight: bold;
 }
