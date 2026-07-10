@@ -231,7 +231,7 @@ background-color: rgb(39, 126, 240);
 font-weight: bold;
 }
 .ai_sec {
-   height: 90vh;
+   height: 100vh;
    display: grid;
    grid-template-columns: 450px 350px 350px;
    padding: 20px 40px;
