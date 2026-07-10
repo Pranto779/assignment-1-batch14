@@ -2,6 +2,7 @@
    padding:0%;
    margin: 0%;
    box-sizing: border-box;
+     font-family: "Space Grotesk", sans-serif;
 }
 nav{
    height: 15px;
@@ -54,14 +55,14 @@ background-color: rgb(44, 101, 223);
    color: rgba(255, 255, 255, 0.63);
 }
 .hero h1{
-   font-size: 60px;
+   font-size: 70px;
    padding: 20px;
    margin-top: 40px;
    font-style: italic;
    
 }
 .hero_btn{
-   padding: 10px 40px;
+   padding: 15px 50px;
    margin-top: 300px;
 }
 .meet_t_S{
@@ -222,10 +223,11 @@ padding: 10px 40px;}
 }
 .card_btn_m{
    padding: 10px 100px;
-margin-left: 25px;
-border: 1px solid rgb(44, 101, 223) ;
+margin-left: 40px;
+border: none ;
 border-radius: 10px;
-color:rgb(44, 101, 223) ;
+color: white;
+background-color: rgb(39, 126, 240);
 font-weight: bold;
 }
 .ai_sec {
@@ -257,6 +259,8 @@ color:rgb(19, 20, 19);
 .ai_sec_card .img2{
    width: 100%;
    border-radius: 20px;
+    border-bottom: 1px solid rgb(39, 126, 240);
+   overflow: hidden;
 }
 
 .ai_sec_card .heading{
@@ -280,7 +284,7 @@ color:rgb(19, 20, 19);
    font-weight: bold;
 }
 .ai_sec_card button{
-   padding: 10px 170px;
+   padding: 20px 170px;
    text-align: center;
    margin-top: 30px;
    margin-left: 23px;
@@ -294,4 +298,36 @@ color:rgb(19, 20, 19);
 .border_right{
    border-right: 1px solid rgba(99, 95, 95, 0.288);
    border-radius: 20px;
+}
+.bg_color{
+ 
+   border-radius: 20px;
+}
+.social{
+   width: 400px;
+   height:100px;
+   margin: auto;
+   margin-top: 70px;
+   padding: 5px 30px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.social a{
+   text-decoration: none;
+}
+footer{
+   height: 80px;
+   background-color:rgb(7, 7, 44);
+   padding: 10px 70px;
+   color: rgba(255, 255, 255, 0.596);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.f_text{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
 }
