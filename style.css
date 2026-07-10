@@ -222,8 +222,8 @@ padding: 10px 40px;}
    color: rgba(164, 183, 224, 0.678);
 }
 .card_btn_m{
-   padding: 10px 100px;
-
+padding: 10px 100px;
+margin-left: 25px;
 border: none ;
 border-radius: 10px;
 color: white;
