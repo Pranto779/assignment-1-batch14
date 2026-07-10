@@ -233,7 +233,7 @@ font-weight: bold;
 .ai_sec {
    height: 90vh;
    display: grid;
-   grid-template-columns: 450px 450px 490px;
+   grid-template-columns: 450px 350px 350px;
    padding: 20px 40px;
    gap: 10px;
    background-color: rgb(255, 220, 220);
@@ -245,6 +245,7 @@ font-weight: bold;
 
 .ai_sec .ai_sec_card {
    padding: 20px 10px;
+   height: 100%;
  
 }
 
