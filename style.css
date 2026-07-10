@@ -194,7 +194,7 @@ color: rgba(0, 0, 0, 0.5);
 }
 .card_m{
       width:22vw;
-   height: 58vh;
+   height: 65vh;
     border-radius: 10px;
     padding: 20px 0px;
 }
@@ -231,7 +231,7 @@ background-color: rgb(39, 126, 240);
 font-weight: bold;
 }
 .ai_sec {
-   height: 100vh;
+   height: 90vh;
    display: grid;
    grid-template-columns: 450px 350px 350px;
    padding: 20px 40px;
